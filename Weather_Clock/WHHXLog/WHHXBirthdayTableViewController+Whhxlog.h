@@ -1,0 +1,30 @@
+#import <UIKit/UIKit.h>
+#import "BirthdayCellModel.h"
+#import "WHHXBirthdayTableViewController.h"
+#import "BirthdayCell.h"
+#import "BirthdayCellModel.h"
+#import "WHHXBirthdayInfoAddedViewController.h"
+#import "WHHXSingleton.h"
+#import <UserNotifications/UserNotifications.h>
+@interface WHHXBirthdayTableViewController (Whhxlog)
++ (BOOL)viewDidLoadWhhxlog:(NSInteger)whhxlog;
++ (BOOL)observeValueForKeyPathOfobjectChangeContextWhhxlog:(NSInteger)whhxlog;
++ (BOOL)addBirthdayWhhxlog:(NSInteger)whhxlog;
++ (BOOL)editBirthdayWhhxlog:(NSInteger)whhxlog;
++ (BOOL)finishEditBirthdayWhhxlog:(NSInteger)whhxlog;
++ (BOOL)deallocWhhxlog:(NSInteger)whhxlog;
++ (BOOL)numberOfSectionsInTableViewWhhxlog:(NSInteger)whhxlog;
++ (BOOL)tableViewNumberofrowsinsectionWhhxlog:(NSInteger)whhxlog;
++ (BOOL)tableViewCellforrowatindexpathWhhxlog:(NSInteger)whhxlog;
++ (BOOL)switchChangedWhhxlog:(NSInteger)whhxlog;
++ (BOOL)calcuFireDateWhhxlog:(NSInteger)whhxlog;
++ (BOOL)addLocalNotificationsWhhxlog:(NSInteger)whhxlog;
++ (BOOL)cancelLocalNotificationsWhhxlog:(NSInteger)whhxlog;
++ (BOOL)updateLocalNotificationWhhxlog:(NSInteger)whhxlog;
++ (BOOL)tableViewCommiteditingstyleForrowatindexpathWhhxlog:(NSInteger)whhxlog;
++ (BOOL)tableViewEditingstyleforrowatindexpathWhhxlog:(NSInteger)whhxlog;
++ (BOOL)tableViewDidendeditingrowatindexpathWhhxlog:(NSInteger)whhxlog;
++ (BOOL)tableViewDidselectrowatindexpathWhhxlog:(NSInteger)whhxlog;
++ (BOOL)tableViewTitlefordeleteconfirmationbuttonforrowatindexpathWhhxlog:(NSInteger)whhxlog;
++ (BOOL)didReceiveMemoryWarningWhhxlog:(NSInteger)whhxlog;
+@end
